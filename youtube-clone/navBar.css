@@ -1,0 +1,99 @@
+body {
+    margin-top: 0;
+}
+
+.navbar {
+    display: flex;    
+    flex-direction: row;
+    height: 55px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 0 10px;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+.menu-icon{
+    margin-left: 15px;
+    height: 24px;
+}
+.logo-icon {
+    margin-left: 25px;
+    height: 20px;
+}
+
+
+.middle-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 60px;
+    margin-left: 100px;
+    flex: 1;
+    
+
+}
+
+.search-bar {
+    border-radius: 20px 0 0 20px;
+    border: 1px solid #ccc;
+    height: 36px;
+    flex: 1;
+    max-width: 530px;
+}
+.search-bar{
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+.search-buttons{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.search-icon {
+    border-radius: 0 20px 20px 0;
+    border: 1px solid #ccc;
+    border-left: none;
+}
+
+.search-icon, .voice-icon {
+    height: 40px;
+    width: 60px;
+}
+
+.search-img {
+    margin-top: 3px;
+}
+.search-img , .voice-img{
+    width: 25px;
+}
+
+.voice-icon{
+    border: none;
+
+}
+
+
+.right-section{
+
+    display: flex;
+    width: 170px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.notification-icon, .upload-icon {
+    width: 25px;
+}
+.profile-picture {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}

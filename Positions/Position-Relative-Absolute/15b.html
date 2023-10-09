@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15b</title>
+</head>
+<body>
+    <style>
+        body {
+            position: relative;
+        }
+        .ad-box {
+            position: fixed;
+            width: 320px;
+            height: 180px;
+            bottom: 20px;
+            right: 20px;
+            background-color: grey;
+        }
+        .close-button {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: -15px;
+            left: -15px;
+            color: white;
+            background-color: black;
+            border: none;
+        }
+        .duration {
+            position: absolute;
+            background-color: black;
+            color: white;
+            bottom: 8px;
+            right: 8px;
+            padding: 5px;
+            margin: 0;
+        }
+    </style>
+    <div class="ad-box">
+        <button class="close-button">X</button>
+        <p class="duration">0:29</p>
+    </div>
+
+</body>
+</html>

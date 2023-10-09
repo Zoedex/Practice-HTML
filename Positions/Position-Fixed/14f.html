@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14f</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Ysabeau+SC:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+        *{
+            font-family: roboto,arial;
+        }
+        body {
+            height: 3000px;
+        }
+        .container {
+            width: 240px;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+        }
+        .profile-section {
+            display: flex;
+            flex-direction: column;
+            background-color: #202020;
+        }
+        .profile {
+            padding: 0 10px 5px 10px;
+        }
+        .profile:first-child {
+            padding-top: 15px;
+        }
+
+        .profile img {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            object-position: left;
+            border-radius: 50%;
+        }
+        
+
+        .info-section {
+            flex: 1;
+            background-color: #4d4c4c;
+            padding: 15px;
+            padding-top: 0;
+        }
+        .info {
+            color: white;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 15px;
+        }
+        .info p:nth-child(2) {
+            color: grey;
+            font-size: 20px;
+            margin: 0;
+        }
+        .hastag-section {
+            color: rgb(158, 158, 158);
+        }
+
+    </style>
+
+    <div class="container">
+        <div class="profile-section">
+            <div class="profile">
+                <img src="https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg" alt="">
+            </div>
+            <div class="profile">
+                <img src="https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg" alt="">
+            </div>
+            <div class="profile">
+                <img src="https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg" alt="">
+            </div>
+        </div>
+        <div class="info-section">
+            <div class="info">
+                <p>INFO</p>
+                <p>+</p>
+            </div>
+            <div class="hastag-section">
+                <p># new-videos</p>
+                <p># updates</p>
+                <p># faq</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

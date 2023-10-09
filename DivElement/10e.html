@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10c</title>
+</head>
+<body>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 150px;
+            height: auto;
+            box-shadow: 0 3px 4px #8c8c8c;
+            display: inline-block;
+            margin: 0 5px;
+        }
+        .profile-picture {
+            width: inherit;
+            height: 150px;
+            object-fit: cover;
+            object-position: left;
+            margin-bottom: 5px;
+        }
+        .mutual-friend img {
+            width: 25px;
+            height: 25px;
+            object-fit: cover;
+            object-position: left;
+            border-radius: 13px;
+            
+        }
+        .mutual-friend{
+            margin-bottom: 7px;
+            display: grid;
+            grid-template-columns: 25px 1fr;
+            align-items: center;
+        }
+        .name {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .mutual {
+            color: #929090;
+            margin-left: 5px;
+            font-size: 14px;
+        }
+        button {
+            background-color: #0066ff;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid ;
+            border: none;
+            color: white;
+        }
+        .info {
+            padding-left: 10px;
+            padding-bottom: 10px;
+        }
+        
+    </style>
+
+    <div class="container">
+        <div class="profile-picture">
+            <img class="profile-picture" src="https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg">
+        </div>
+        <div class="info">
+            <p class="name">Oliver</p>
+            <div class="mutual-friend">
+                <div>
+                    <img src="https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg" alt="">
+                </div>
+                <div>
+                    <p class="mutual">2 mutual friends</p>
+                </div>
+
+            </div>
+            <button>Add Friend</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="profile-picture">
+            <img class="profile-picture" src="https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg">
+        </div>
+        <div class="info">
+            <p class="name">Oliver</p>
+            <div class="mutual-friend">
+                <div>
+                    <img src="https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg" alt="">
+                </div>
+                <div>
+                    <p class="mutual">2 mutual friends</p>
+                </div>
+
+            </div>
+            <button>Add Friend</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="profile-picture">
+            <img class="profile-picture" src="https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg">
+        </div>
+        <div class="info">
+            <p class="name">Oliver</p>
+            <div class="mutual-friend">
+                <div>
+                    <img src="https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg" alt="">
+                </div>
+                <div>
+                    <p class="mutual">2 mutual friends</p>
+                </div>
+
+            </div>
+            <button>Add Friend</button>
+        </div>
+    </div>
+    
+    
+    
+</body>
+</html>
